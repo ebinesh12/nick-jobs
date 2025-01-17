@@ -9,7 +9,7 @@ const Hero = () => {
   
   return (
     <div>
-        <section className='flex flex-col py-10 items-center justify-center bg-cyan-500 '>
+        <section className='flex flex-col py-10 items-center justify-center bg-blue-600 '>
             <h1 className='text-3xl pt-8 text-white text-center'>Become a React Dev</h1>
             <p className='text-md mt-4 pb-8  text-white text-center'> Finds the React Job that fits your skils </p>
         </section>
@@ -26,13 +26,13 @@ const Hero = () => {
               </Card>
             </div>
             <div className='pr-4 px-3 py-4 w-full'>
-              <Card className="bg-cyan-100">
+              <Card className="bg-blue-100">
                 <CardHeader>
                     <CardTitle>For Employers</CardTitle>
                     <CardDescription>List your jobs to find perfect devlopers for the role </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <Button className='bg-cyan-600'onClick={()=>nav("/add")}> Add Job </Button>
+                    <Button className='bg-blue-600 hover:bg-blue-700'onClick={()=>nav("/add")}> Add Job </Button>
                 </CardContent>
               </Card>
             </div>

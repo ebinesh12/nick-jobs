@@ -32,7 +32,7 @@ const nav = useNavigate();
                             <div className='w-full flex justify-between'>
                             
                                 <p className='flex items-center'><MapPinned color="black" size={32} />Boston</p>
-                                <Button className='bg-cyan-700' onClick={()=>nav("/details")} >Read more</Button>
+                                <Button className='bg-blue-600 hover:bg-blue-700' onClick={()=>nav("/details")} >Read more</Button>
                             </div>
                         </CardFooter>
                     </Card>
@@ -52,7 +52,7 @@ const nav = useNavigate();
                             <div className='w-full flex justify-between'>
                             
                                 <p className='flex items-center'><MapPinned color="black" size={32} />Boston</p>
-                                <Button className='bg-cyan-700' onClick={()=>nav("/details")} >Read more</Button>
+                                <Button className='bg-blue-600 hover:bg-blue-700' onClick={()=>nav("/details")} >Read more</Button>
                             </div>
                         </CardFooter>
                     </Card>
@@ -72,13 +72,13 @@ const nav = useNavigate();
                             <div className='w-full flex justify-between'>
                             
                                 <p className='flex items-center'><MapPinned color="black" size={32} />Boston</p>
-                                <Button className='bg-cyan-700' onClick={()=>nav("/details")} >Read more</Button>
+                                <Button className='bg-blue-600 hover:bg-blue-700' onClick={()=>nav("/details")} >Read more</Button>
                             </div>
                         </CardFooter>
                     </Card>
                 </div>
             </section>
-            <section className='py-10 bg-cyan-400 flex justify-center items-center'>
+            <section className='py-10 bg-blue-600 flex justify-center items-center'>
                 <Button onClick={()=>nav("/jobs")} >View All</Button>
             </section>
         </div>

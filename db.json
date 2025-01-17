@@ -1,7 +1,42 @@
 {
-    "users" : [
-        {
-            
-        }
-    ]
+  "users": [
+    {
+      "id": 1
+    },
+    {
+      "name": "ebin",
+      "email": "fx@hhg.jj",
+      "pass1": "1234",
+      "pass2": "1234",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Ebin",
+      "email": "fx@hhg.jj",
+      "pass1": "1234",
+      "pass2": "1234"
+    },
+    {
+      "id": 4,
+      "name": "Ebin",
+      "email": "fxyddy@hhg.jjgh",
+      "pass1": "1234",
+      "pass2": "1234"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "type": "Full Time",
+      "position": "React Developer",
+      "descript": "React Dev with 2 year exp",
+      "salary": "15000",
+      "location": "Chennai",
+      "cname": "TCS",
+      "cdescript": "MNC Company",
+      "email": "tcs@gmail.com",
+      "mobile": "9009900991"
+    }
+  ]
 }

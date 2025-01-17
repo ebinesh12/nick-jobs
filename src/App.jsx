@@ -6,6 +6,8 @@ import Jobs from '@/pages/Jobs';
 import Add from '@/pages/Add';
 import Login from '@/pages/Login';
 import Register from '@/pages/Register';
+import Details from '@/pages/Details';
+import Update from '@/pages/Update';
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
             <Route path='*' element={<Home />}/>
             <Route path='/' element={<Home />}/>
             <Route path='/jobs' element={<Jobs />}/>
+            <Route path='/jobs/:id' element={<Details/>}/>
+            <Route path='/update/:id' element={<Update/>}/>
             <Route path='/add' element={<Add />}/>
             <Route path='/login' element={<Login />}/>
             <Route path='/register' element={<Register />}/>
