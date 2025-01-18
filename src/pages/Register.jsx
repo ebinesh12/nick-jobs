@@ -12,7 +12,6 @@ import { validateForm } from '@/lib/validators';
 const Register = () => {
 
   const nav = useNavigate();
-
   const [formInput, setFormInput] = useState({ name:"", email:"", pass1:"", pass2:"" });
 
   const handleChange = (event) =>{

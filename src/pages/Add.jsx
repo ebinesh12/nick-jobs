@@ -14,17 +14,7 @@ const Add = () => {
 
   const nav = useNavigate();
 
-  const [formInput, setFormInput] = useState({
-    type:"",
-    position:"",
-    descript:"",
-    salary:"",
-    location:"",
-    cname:"",
-    cdescript:"",
-    email:"",
-    mobile:""
-  });
+  const [formInput, setFormInput] = useState({ type:"", position:"", descript:"", salary:"", location:"", cname:"", cdescript:"", email:"", mobile:""});
 
   const handleChange = (event) =>{
     const {name, value} = event.target;

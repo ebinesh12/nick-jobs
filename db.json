@@ -1,28 +1,18 @@
 {
   "users": [
     {
-      "id": 1
-    },
-    {
-      "name": "ebin",
-      "email": "fx@hhg.jj",
-      "pass1": "1234",
-      "pass2": "1234",
-      "id": 2
-    },
-    {
-      "id": 3,
-      "name": "Ebin",
-      "email": "fx@hhg.jj",
+      "id": 1,
+      "name": "Nick",
+      "email": "nick@gmail.com",
       "pass1": "1234",
       "pass2": "1234"
     },
     {
-      "id": 4,
-      "name": "Ebin",
-      "email": "fxyddy@hhg.jjgh",
-      "pass1": "1234",
-      "pass2": "1234"
+      "id": 2,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "pass1": "12345",
+      "pass2": "12345"
     }
   ],
   "jobs": [

@@ -56,10 +56,12 @@ export const register = async (qry) => {
     }
   };
 
-export const login = async (query) => {
+export const login = async (qry) => {
+  const {email, pass}=qry;
+
     try {
-      const response = await api.post('signin', query);
-      return response.data;
+      const response = await api.get('/users',{params:{"email":email, "pass1":pass} });
+      return response;   
     } catch (error) {
       console.log("Login error:", error.response.data);
       throw error.response.data;

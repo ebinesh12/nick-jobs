@@ -63,10 +63,10 @@ export const validateForm = (formType, data) => {
         break;
 
       case 'login':
-        if (!data.name.trim()) {
-          return { valid: false, message: "Username is required." };
+        if (!data.email.trim()) {
+          return { valid: false, message: "Email is required." };
         }
-        if (!data.password.trim()) {
+        if (!data.pass.trim()) {
           return { valid: false, message: "Password is required." };
         }
         break;
