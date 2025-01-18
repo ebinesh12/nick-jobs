@@ -12,7 +12,7 @@ const Details = () => {
      const [data, setData] = useState();
     const fetchData = async () => {
         try {
-          const response = await axios.get(`http://localhost:4000/jobs/${id}`);
+          const response = await axios.get(`${import.meta.env.VITE_BASE_URL}/jobs/${id}`);
           // console.log(response)
           setData(response.data);
         } catch (error) {

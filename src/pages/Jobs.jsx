@@ -14,7 +14,7 @@ const Jobs = () => {
 
     const fetchData = async () => {
         try {
-          const response = await axios.get('http://localhost:4000/jobs');
+          const response = await axios.get(`${import.meta.env.VITE_BASE_URL}/jobs`);
           // console.log(response)
           setData(response.data);
         } catch (error) {
